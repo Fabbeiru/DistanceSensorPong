@@ -14,7 +14,7 @@ Se programa una interfaz que utiliza la información de distancia suministrada p
 
 El diseño y configuración ha sido el que se puede observar en la siguiente figura. Se adjunta el <a href="https://www.tinkercad.com/things/e77wAqxA3kJ">enlace de la configuración en Tinkercad</a> para visualizar la simulación y modificar el código si se desea. El conexionado de cada cable del sensor de distancia a las señales que corresponden en la tarjeta es el siguiente: rojo = 5v, negro = GND y amarillo = A0.
 
-<p align="center"><img src="/images/sensor-pong-tinkercard.png" alt="Diseño, configuración y simulación del Arduino en Tinkercad"/>
+<p align="center"><img src="/images/sensor-pong-tinkercard.PNG" alt="Diseño, configuración y simulación del Arduino en Tinkercad"/>
 
 ## Código implementado
 
