@@ -14,7 +14,7 @@ Se programa una interfaz que utiliza la información de distancia suministrada p
 
 El diseño y configuración ha sido el que se puede observar en la siguiente figura. Se adjunta el <a href="https://www.tinkercad.com/things/e77wAqxA3kJ">enlace de la configuración en Tinkercad</a> para visualizar la simulación y modificar el código si se desea. El conexionado de cada cable del sensor de distancia a las señales que corresponden en la tarjeta es el siguiente: rojo = 5v, negro = GND y amarillo = A0.
 
-<p align="center"><img src="" alt="Diseño, configuración y simulación del Arduino en Tinkercad"/>
+<p align="center"><img src="/images/sensor-pong-tinkercard.png" alt="Diseño, configuración y simulación del Arduino en Tinkercad"/>
 
 ## Código implementado
 
@@ -107,6 +107,7 @@ void loop() {
 }
 ```
 A continuación, se muestra el resultado final mediante un gif animado. La pala de la derecha es del jugador 2, controlado mediante el sensor de distancia:
+<p align="center"><img src="/images/sensor-pong-demo.gif" alt="Prueba del código en vivo."/>
 
 ## Descarga y prueba
 Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta llamada BlinkLed se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (BlinkLed), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
